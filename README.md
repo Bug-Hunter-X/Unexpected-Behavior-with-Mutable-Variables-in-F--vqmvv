@@ -1,0 +1,1 @@
+This example demonstrates a common mistake when working with mutable variables in F#.  In this case, the swap function is intended to swap the values of two variables, but because F# passes mutable variables by reference, it ends up modifying the original variables directly. This can lead to unexpected behavior and difficult-to-debug errors.
